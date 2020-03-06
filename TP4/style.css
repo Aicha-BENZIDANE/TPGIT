@@ -1,0 +1,69 @@
+div{
+    
+    padding:2px;
+    margin:2px;
+}
+#robot{
+    width:300px;
+    height:500px;
+    position: relative;
+    left: 10%;
+    
+}
+#tete{
+    width:20%;
+    height:30%;
+    position: relative;
+    left: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius:50%;
+}
+#ol,#or{
+    width: 20%;
+    height: 20%;
+    border-radius: 100%;
+    background-color: white;
+}
+#main{
+    width: 60%;
+    height: 40%;
+    display:flex;
+    justify-content: flex-start;
+
+}
+#mr ,#ml{
+  width: 40%;
+  height: 40%;
+  border-radius: 20%;
+}
+#corp{
+  width: 80%;
+  height: 100%;
+  border-radius: 20%;
+}
+#pieds{
+    width: 60%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+#pr ,#pl{
+    width: 20%;
+    height: 40%;
+    border-radius: 20%;
+}
+#tete,#ml,#mr,#pl,#pr,#corp{
+    background-color: violet;
+}
+#ml:hover,#mr:hover,#pr:hover{
+    transform:rotate(20deg);
+
+}
+#robot{
+    transform: scale(0.5,0.5);
+}
